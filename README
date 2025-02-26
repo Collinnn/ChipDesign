@@ -2,10 +2,15 @@ We make the button go fast
 ## 🔄 Run Tests
 
 [![Icarus Verilog Test](https://github.com/Collinnn/ChipDesign/actions/workflows/blank.yml/badge.svg)](https://github.com/Collinnn/ChipDesign/actions/workflows/blank.yml)
+[![Icarus Verilog Test](https://github.com/Collinnn/ChipDesign/actions/workflows/blank.yml/badge.svg)](https://github.com/Collinnn/ChipDesign/actions/workflows/icarus-test.yml)
 
-Click the button below to manually trigger the test workflow:
 
-[![Run Tests](https://img.shields.io/badge/Run%20Tests-Click%20Here-blue?style=for-the-badge)](https://github.com/Collinnn/ChipDesign/actions/workflows/blank.yml)
+### 🔘 **Trigger a Manual Test**
+To manually run the tests, follow these steps:
+
+1. Go to the **[GitHub Actions Page](https://github.com/Collinnn/ChipDesign/actions/workflows/blank.yml)**.
+2. Click the **"Run workflow"** button.
+3. Select the branch and click **"Run workflow"**.
 
 ## 🛠️ How It Works
 - On **push** to `main` or a **pull request**, the workflow runs.
