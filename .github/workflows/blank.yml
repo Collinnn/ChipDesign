@@ -1,0 +1,25 @@
+name: Icarus Verilog Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Icarus Verilog
+        run: sudo apt-get update && sudo apt-get install -y iverilog
+
+      - name: Compile Verilog Files
+        run: |
+          iverilog -o tests/test_output.vvp src/*.v tests/*.v 
+
+      - name: Run Simulation
+        run: vvp test_output.vvp
