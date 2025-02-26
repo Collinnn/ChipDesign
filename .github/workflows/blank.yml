@@ -26,4 +26,4 @@ jobs:
           iverilog -o tests/test_output.vvp src/*.v tests/*.v 
 
       - name: Run Simulation
-        run: vvp test_output.vvp
+        run: vvp tests/test_output.vvp
