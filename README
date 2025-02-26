@@ -1,0 +1,16 @@
+We make the button go fast
+## 🔄 Run Tests
+
+[![Icarus Verilog Test](https://github.com/Collinnn/ChipDesign/actions/workflows/icarus-test.yml/badge.svg)](https://github.com/Collinnn/ChipDesign/actions/workflows/icarus-test.yml)
+
+Click the button below to manually trigger the test workflow:
+
+[![Run Tests](https://img.shields.io/badge/Run%20Tests-Click%20Here-blue?style=for-the-badge)](https://github.com/Collinnn/ChipDesign/actions/workflows/icarus-test.yml)
+
+## 🛠️ How It Works
+- On **push** to `main` or a **pull request**, the workflow runs.
+- It installs Icarus Verilog (`iverilog`) and runs all tests inside the `tests/` folder.
+- The results are shown in the **Actions** tab.
+
+## 📜 Usage
+Ensure your test files are inside `tests/`, and the main testbench file is properly configured.
