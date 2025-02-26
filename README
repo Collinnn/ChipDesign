@@ -1,11 +1,11 @@
 We make the button go fast
 ## 🔄 Run Tests
 
-[![Icarus Verilog Test](https://github.com/Collinnn/ChipDesign/actions/workflows/icarus-test.yml/badge.svg)](https://github.com/Collinnn/ChipDesign/actions/workflows/icarus-test.yml)
+[![Icarus Verilog Test](https://github.com/Collinnn/ChipDesign/actions/workflows/blank.yml/badge.svg)](https://github.com/Collinnn/ChipDesign/actions/workflows/blank.yml)
 
 Click the button below to manually trigger the test workflow:
 
-[![Run Tests](https://img.shields.io/badge/Run%20Tests-Click%20Here-blue?style=for-the-badge)](https://github.com/Collinnn/ChipDesign/actions/workflows/icarus-test.yml)
+[![Run Tests](https://img.shields.io/badge/Run%20Tests-Click%20Here-blue?style=for-the-badge)](https://github.com/Collinnn/ChipDesign/actions/workflows/blank.yml)
 
 ## 🛠️ How It Works
 - On **push** to `main` or a **pull request**, the workflow runs.
