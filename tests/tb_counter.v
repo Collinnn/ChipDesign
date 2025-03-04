@@ -56,6 +56,10 @@ module up_down_counter_tb;
         #40 enable = 0;
         $finish;
     end
+    always @(posedge clk) begin
+        `assert(reset,0);
+    end
+    
     // Monitor Output
     initial begin
         $monitor("Time = %0t | Reset = %b | Set = %b | Set Value = %b | Enable = %b | Up_Down = %b | Count = %b", 

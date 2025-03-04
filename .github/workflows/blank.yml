@@ -26,4 +26,15 @@ jobs:
           iverilog -o tests/test_output.vvp src/*.v tests/*.v 
 
       - name: Run Simulation
-        run: vvp tests/test_output.vvp
+        run: |
+          vvp tests/test_output.vvp | tee test_results.log
+
+      - name: Check for Failure
+        run: |
+          if grep -q "ASSERTION FAILED" test_results.log; then
+            echo "Test Failed"
+            exit 1
+          else
+            echo "Test Passed"
+          fi
+
