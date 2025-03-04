@@ -31,8 +31,9 @@ jobs:
 
       - name: Check for Failure
         run: |
+          set -e # forces the script to exit if any command fails
           if grep -q "ASSERTION FAILED" test_results.log; then
-            echo "Test Failed"
+            echo "❌ Test failed: Found failure indicators in output"
             exit 1
           else
             echo "Test Passed"

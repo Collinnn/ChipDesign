@@ -3,7 +3,6 @@ We make the button go fast
 
 [![Icarus Verilog Test](https://github.com/Collinnn/ChipDesign/actions/workflows/blank.yml/badge.svg)](https://github.com/Collinnn/ChipDesign/actions/workflows/blank.yml)
 
-![Icarus Verilog Test]()
 
 ### 🔘 **Trigger a Manual Test**
 To manually run the tests, follow these steps:
